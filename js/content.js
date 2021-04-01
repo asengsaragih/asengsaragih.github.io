@@ -1,4 +1,4 @@
-var API_URL = "http://portofolio-aseng.herokuapp.com/api/api-data";
+var API_URL = "https://portofolio-aseng.herokuapp.com/api/api-data";
 
 $.getJSON(API_URL, function(data) {
     var overview = data['overview'];
