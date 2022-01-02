@@ -36,7 +36,7 @@
 
 </head>
 
-<body>
+<body onload="loadData()">
 
 <!-- Header
 ================================================== -->
@@ -58,19 +58,11 @@
 
     <div class="row banner">
         <div class="banner-text">
-            <h1 class="responsive-headline">Aldi Saragih</h1>
-
-            <h3><span>Programmer</span> dibidang <span>Android (Java) dan Website (Laravel).</span> Memiliki paham tentang
-                algoritma pemrograman, struktur database <span>SQL dan non SQL</span>, Struktur <span>JSON Restful API</span>, Struktur
-                <span>Pattern Code.</span>
-            </h3>
-
+            <h1 class="responsive-headline" id="home-name"></h1>
+            <h3 id="home-description"></h3>
             <hr/>
-            <ul class="social">
-                <li><a href="https://github.com/asengsaragih" target="_blank"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/aldi-saragih-5b8884137/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="mailto:aldiwahyu.saragih@gmail.com?subject=Portofolio Aldi Saragih"><i class="fa fa-envelope"></i></a></li>
-            </ul>
+
+            <ul class="social" id="home-social-media"></ul>
         </div>
     </div>
 
@@ -89,7 +81,7 @@
 
         <div class="three columns">
 
-            <img class="profile-pic" src="https://avatars3.githubusercontent.com/u/49329871?v=4" alt=""/>
+            <img class="profile-pic" id="about-pic" src="https://avatars3.githubusercontent.com/u/49329871?v=4" alt=""/>
 
         </div>
 
@@ -97,10 +89,7 @@
 
             <h2>Tentang Saya</h2>
 
-            <p style="color: #e0e0e0">Halo Semuanya. Nama saya Aldi Wahyu Saragih biasanya dipanggil Aldi. Saya berasal dari Bandung. Saya
-                memiliki skill dibidang Mobile (Android) dan Website (Laravel). Untuk development aplikasi, saya bisa menggunakan bahasa
-                pemrograman Java, JavaScript, Php (Laravel) dengan menggunakan database Firebase, MySql, Postgre dan Oracle. Serta paham tentang
-                penggunaan Restful API.</p>
+            <p style="color: #e0e0e0" id="about-description"></p>
 
             <h2><a href="https://github.com/asengsaragih">Kontribusi Github</a></h2>
 
@@ -111,20 +100,15 @@
                 <div class="columns contact-details">
 
                     <h2>Detail Kontak</h2>
-                    <p class="address" style="color: #e0e0e0">
-                        <span>Aldi Wahyu Saragih</span><br>
-                        <span>Jalan Telekomunikasi Gg. PGA<br>
-						         Buahbatu Bandung, 40288
-                     </span><br>
-                        <span>+62 821-6560-7625</span><br>
-                        <span>aldiwahyu.saragih@gmail.com</span>
+                    <p class="address" style="color: #e0e0e0" id="about-contact">
+                        
                     </p>
 
                 </div>
 
                 <div class="columns download">
-                    <p>
-                        <a href="https://raw.githubusercontent.com/asengsaragih/asengsaragih.github.io/master/images/portfolio/CV%20-%20Aldi%20Wahyu%20Saragih.pdf" class="button"><i class="fa fa-download"></i>Unduh CV</a>
+                    <p id="about-cv">
+                        
                     </p>
                 </div>
 
@@ -149,23 +133,7 @@
             <h1><span>Edukasi</span></h1>
         </div>
 
-        <div class="nine columns main-col">
-
-            <div class="row item">
-
-                <div class="twelve columns">
-
-                    <h3>Universitas Telkom</h3>
-                    <p class="info">D3 Rekayasa Perangkat Lunak Aplikasi (3.47) <span>&bull;</span> <em class="date">Juni
-                        2020</em></p>
-
-                    <p></p>
-
-                </div>
-
-            </div> <!-- item end -->
-
-        </div> <!-- main-col end -->
+        <div class="nine columns main-col" id="biograph-educations"></div>
 
     </div> <!-- End Education -->
 
@@ -178,93 +146,7 @@
             <h1><span>Pengalaman</span></h1>
         </div>
 
-        <div class="nine columns main-col">
-
-            <div class="row item">
-
-                <div class="twelve columns">
-
-                    <h3>Direktorat Pusat Teknologi Informasi, Universitas Telkom</h3>
-                    <p class="info">Kontrak - Backend Developer <span>&bull;</span> <em class="date">Maret 2021 - Sekarang</em>
-                    </p>
-
-                    <p>
-                        Divisi Backend Developer, melakukan pembuatan API serta merancang struktur JSON untuk Frontend Developer Website.                        
-                    </p>
-
-                </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-                <div class="twelve columns">
-
-                    <h3>Four Vision Media</h3>
-                    <p class="info">Kontrak - Android Development <span>&bull;</span> <em class="date">September 2020 - Maret 2021</em>
-                    </p>
-
-                    <p>
-                        Divisi Android Development yang bertugas membuat aplikasi mobile dengan menggunakan android studio dengan bahasa Java.
-                    </p>
-
-                </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-                <div class="twelve columns">
-
-                    <h3>Bandung Techno Park</h3>
-                    <p class="info">Magang - Website Development <span>&bull;</span> <em class="date">Januari 2020 -
-                        April 2020</em>
-                    </p>
-
-                    <p>
-                        Divisi Website Development yang bertugas membuat landing page untuk mempromosikan product dari
-                        Bandung Techno Park dan membuat template untuk website resmi Bandung Techno Park.
-                    </p>
-
-                </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-                <div class="twelve columns">
-
-                    <h3>Sahaware Software Company</h3>
-                    <p class="info">Speaker Dilo Coding Class - AngularJS Basic <span>&bull;</span> <em class="date">Juli
-                        2019</em>
-                    </p>
-
-                    <p>
-                        Pembicara event dalam pembuatan website sederhana dengan menggunakan Framework AngularJS yang di
-                        adakan di Sahaware Software Company.
-                    </p>
-
-                </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-                <div class="twelve columns">
-
-                    <h3>Telkom University</h3>
-                    <p class="info">Asisten Praktikum - Telkom University <span>&bull;</span> <em
-                            class="date">Agustus 2018 - Mei 2019</em>
-                    </p>
-
-                    <p>Menjadi asisten praktikum pada Prodi  D3 Rekayasa Perangkat Lunak Aplikasi dan D3 Teknik Komputer.
-                        Membantu membimbing mahasiswa dalam mempelajari website, database dan networking</p>
-
-                </div>
-
-            </div> <!-- item end -->
-
-        </div> <!-- main-col end -->
+        <div class="nine columns main-col" id="biograph-experiences"></div>
 
     </div> <!-- End Work -->
 
@@ -275,452 +157,7 @@
 ================================================== -->
 <section id="portfolio">
 
-    <div class="row">
-
-        <div class="twelve columns collapsed">
-
-            <h1>Portofolio Android & Website</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-01" title="">
-                            <img alt="" src="images/portfolio/android-utang.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Utang App</h5>
-                                    <p>Android Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-02" title="">
-                            <img alt="" src="images/portfolio/android-horoscope.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Horoscope App</h5>
-                                    <p>Android Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-03" title="">
-                            <img alt="" src="images/portfolio/android-image.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Random Image App</h5>
-                                    <p>Android Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-04" title="">
-                            <img alt="" src="images/portfolio/android-weather.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Weather App</h5>
-                                    <p>Android Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-05" title="">
-                            <img alt="" src="images/portfolio/android-poem.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Poem App</h5>
-                                    <p>Android Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-06" title="">
-                            <img alt="" src="images/portfolio/android-banjir.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Monitoring Banjir App</h5>
-                                    <p>Android Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-07" title="">
-                            <img alt="" src="images/portfolio/android-dtres.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Dtres Catering App</h5>
-                                    <p>Android Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-08" title="">
-                            <img alt="" src="images/portfolio/android-manager.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Manager Keuangan Mahasiswa</h5>
-                                    <p>Android Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-09" title="">
-                            <img alt="" src="images/portfolio/website-banjir.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Monitoring Banjir</h5>
-                                    <p>Web Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-10" title="">
-                            <img alt="" src="images/portfolio/website-pmb.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Directory Higher Education</h5>
-                                    <p>Web Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-11" title="">
-                            <img alt="" src="images/portfolio/website-studia.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Studia</h5>
-                                    <p>Website Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div> <!-- item end -->
-
-                <div class="columns portfolio-item">
-                    <div class="item-wrap">
-
-                        <a href="#modal-12" title="">
-                            <img alt="" src="images/portfolio/website-greeting.jpg">
-                            <div class="overlay">
-                                <div class="portfolio-item-meta">
-                                    <h5>Greeting Web</h5>
-                                    <p>Web Development</p>
-                                </div>
-                            </div>
-                            <div class="link-icon"><i class="icon-plus"></i></div>
-                        </a>
-
-                    </div>
-                </div>  <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-        </div> <!-- twelve columns end -->
-
-
-        <!-- Modal Popup
-         --------------------------------------------------------------- -->
-
-        <div id="modal-01" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-android-utang.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Utang - Aplikasi Pencatat Utang Piutang</h4>
-                <p>Aplikasi Utang dapat membantu pengguna dalam melakukan pencatatan utang maupun piutang secara
-                    pribadi. Aplikasi ini memungkinkan pengguna tidak perlu lagi melakukan pencatatan utang secara
-                    manual di buku. Aplikasi ini dapat mencatat kapan, berapa, dan dari atau kepada siapa utang
-                    dipinjamkan.</p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Java, SQLite</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://asengsaragih.github.io/Portofolio/android/utang.html">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-01 End -->
-
-        <div id="modal-02" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-android-horoscope.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Horoscope - Aplikasi Horoscope API</h4>
-                <p>Aplikasi horoscope, menampilkan data zodiak dalam 3 kategori (Hari ini, Kemarin dan Besok).
-                    Aplikasi ini menggunakan data API : Aztro API
-                </p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Java, Retrofit, API</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://github.com/asengsaragih/AndroidHoroscopeApp">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-01 End -->
-
-        <div id="modal-03" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-android-image.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Random Image - Aplikasi Random Image API</h4>
-                <p>Aplikasi random image, menampilkan 100 gambar secara acak dan dapat diunduh kedalam
-                    storage internal android. Aplikasi ini menggunakan data image API : Picsum Photo </p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Glide, Retrofit, Java, Okhttp</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://github.com/asengsaragih/AndroidImageApp">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-01 End -->
-
-        <div id="modal-04" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-android-weather.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Weather - Aplikasi Weather API</h4>
-                <p>Aplikasi Menampilkan data perkiraan cuaca dalam 5 hari kedepan, aplikasi menggunakan
-                    data API : Yahoo Weather API</p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Glide, Retrofit, Java, API</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://github.com/asengsaragih/AndroidWeatherApp">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-01 End -->
-
-        <div id="modal-05" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-android-poem.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Poem - Aplikasi Puisi API</h4>
-                <p>Aplikasi Puisi, menampilkan puisi random dalam berbagai ragam Bahasa. Aplikasi
-                    Menggunakan data API : Poemist API</p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Shimmer, Retrofit, Java, API</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://github.com/asengsaragih/AndroidPoemApp">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-01 End -->
-
-        <div id="modal-06" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-android-banjir.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Monitoring Banjir Dengan LoRaWan</h4>
-                <p>Aplikasi Monitoring Banjir merupakan aplikasi pemantauan banjir dini yang dibangun dengan tujuan
-                    untuk menampilkan data banjir di sekitaran kit banjir / prototype bagi masyarakat secara lebih mudah
-                    dan efesien. Aplikasi ini dibangun menggunakan LoRa yang bertujuan untuk memberikan data secara
-                    realtime.</p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Firebase, LoRa GPS</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://asengsaragih.github.io/Portofolio/android/banjir.html">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-02 End -->
-
-        <div id="modal-07" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-android-dtres.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Dtres Catering - Aplikasi Catering Makanan</h4>
-                <p>Aplikasi Dtres Catering dapat membantu pengguna membeli dan menjual makanan dalam jumlah besar,
-                    Aplikasi ini terdiri dari 2 Role (Penjual dan Pembeli).</p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Firebase</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://asengsaragih.github.io/Portofolio/android/dtres.html">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-03 End -->
-
-        <div id="modal-08" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-android-manager.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Manager Keuangan Mahasiswa - Aplikasi pencatat keuangan mahasiswa</h4>
-                <p>Aplikasi Manager Keuangan Mahasiswa, dapat membantu para mahasiswa dalam mengatur keuangan yang
-                    dimiliki. Aplikasi ini memiliki fitur Pencatat (Pengeluaran dan Pemasukan), Hutang dan Wishlist
-                    (Keinginan untuk dibeli).</p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Java, SQLite</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://asengsaragih.github.io/Portofolio/android/mkm.html">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-04 End -->
-
-        <div id="modal-09" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-website-banjir.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Monitoring Banjir Dengan LoRaWan</h4>
-                <p>Aplikasi Monitoring Banjir merupakan aplikasi pemantauan banjir dini yang dibangun dengan tujuan
-                    untuk menampilkan data banjir di sekitaran kit banjir / prototype bagi masyarakat secara lebih mudah
-                    dan efesien. Aplikasi ini dibangun menggunakan LoRa yang bertujuan untuk memberikan data secara
-                    realtime.</p>
-                <span class="categories"><i class="fa fa-tag"></i>Android Development, Firebase, LoRa GPS</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://asengsaragih.github.io/Portofolio/website/banjir.html">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-05 End -->
-
-        <div id="modal-10" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-website-ypt.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Directory Higher Education - Website Pendataan Mahasiswa Baru</h4>
-                <p>Aplikasi PMB ini digunakan untuk pendaftaran mahasiswa baru pada kampus telkom, project ini saya
-                    kerjakan dalam rangka mengatur pendataan mahasiswa baru dengan dilengkapi grafik.</p>
-                <span class="categories"><i
-                        class="fa fa-tag"></i>Website Development, MySQL, JavaScript, Jquery, PHP</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://asengsaragih.github.io/Portofolio/website/ypt.html">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-06 End -->
-
-        <div id="modal-11" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-website-studia.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Studia</h4>
-                <p>Learning Management System (LMS) / E -Learning, Software, Training, and Consulting.</p>
-                <span class="categories"><i class="fa fa-tag"></i>Webdesign, Bootstrap, Javascript</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://asengsaragih.github.io/ProductBTPStudia">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-07 End -->
-
-        <div id="modal-12" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/m-website-greeting.jpg" alt=""/>
-
-            <div class="description-box">
-                <h4>Greeting Day Website</h4>
-                <p>Simple Website untuk memberikan salam sesuai dengan waktu</p>
-                <span class="categories"><i class="fa fa-tag"></i>Webdesign, Html, Javascript</span>
-            </div>
-
-            <div class="link-box">
-                <a href="https://asengsaragih.github.io/GreetingDayWebsite/index.html?aseng">Details</a>
-                <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-        </div><!-- modal-01 End -->
-
-
-    </div> <!-- row End -->
+    <div class="row" id="portofolio"></div>
 
 </section> <!-- Portfolio Section End-->
 
@@ -733,12 +170,7 @@
 
         <div class="twelve columns">
 
-            <ul class="social-links">
-                <li><a href="https://github.com/asengsaragih" target="_blank"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/aldi-saragih-5b8884137/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="mailto:aldiwahyu.saragih@gmail.com?subject=Portofolio Aldi Saragih"><i
-                        class="fa fa-envelope"></i></a></li>
-            </ul>
+            <ul class="social-links" id="footer-social-media"></ul>
 
             <ul class="copyright">
                 <li>&copy; Copyright 2020 Aldi Saragih</li>
@@ -763,6 +195,7 @@
 <script src="js/waypoints.js"></script>
 <script src="js/jquery.fittext.js"></script>
 <script src="js/magnific-popup.js"></script>
+<script src="js/index.js"></script>
 <script src="js/init.js"></script>
 
 </body>

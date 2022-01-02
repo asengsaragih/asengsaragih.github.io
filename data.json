@@ -1,0 +1,201 @@
+{
+    "home": {
+        "name": "Aldi Saragih",
+        "description": "<span>Programmer</span> dibidang <span>Android (Java) dan Website (Laravel).</span> Memiliki paham tentang algoritma pemrograman, struktur database <span>SQL dan non SQL</span>, Struktur <span>JSON Restful API</span>, Struktur <span>Pattern Code.</span>"
+    },
+    "about": {
+        "profile_pic" : "https://avatars.githubusercontent.com/u/49329871?v=4",
+        "description": "Halo Semuanya. Nama saya Aldi Wahyu Saragih biasanya dipanggil Aldi. Saya berasal dari Bandung. Saya memiliki skill dibidang Mobile (Android) dan Website (Laravel). Untuk development aplikasi, saya bisa menggunakan bahasa pemrograman Java, JavaScript, Php (Laravel) dengan menggunakan database Firebase, MySql, Postgre dan Oracle. Serta paham tentang penggunaan Restful API.",
+        "detail_contact": "<span>Aldi Wahyu Saragih</span><br><span>Jalan Telekomunikasi Gg. PGA<br> Buahbatu Bandung, 40288</span><br><span>+62 821-6560-7625</span><br><span>aldiwahyu.saragih@gmail.com</span>",
+        "cv": "https://raw.githubusercontent.com/asengsaragih/asengsaragih.github.io/master/images/portfolio/CV%20-%20Aldi%20Wahyu%20Saragih.pdf"
+    },
+    "biograph": {
+        "educations": [
+            {
+                "title": "Universitas Bina Nusantara",
+                "description": "S1 Teknik Informatika",
+                "start_date": "Agustus 2021",
+                "end_date": null
+            },
+            {
+                "title": "Universitas Telkom",
+                "description": "D3 Rekayasa Perangkat Lunak Aplikasi (3.47)",
+                "start_date": "Agustus 2017",
+                "end_date": "Juni 2020"
+            }
+        ],
+        "experiences": [
+            {
+                "title": "Direktorat Pusat Teknologi Informasi, Universitas Telkom",
+                "type": "Kontrak - Backend Developer",
+                "description": "Divisi Backend Developer, melakukan pembuatan API serta merancang struktur JSON untuk Frontend Developer Website.",
+                "start_date": "Maret 2021",
+                "end_date": null
+            },
+            {
+                "title": "Four Vision Media",
+                "type": "Kontrak - Android Development",
+                "description": "Divisi Android Development yang bertugas membuat aplikasi mobile dengan menggunakan android studio dengan bahasa Java.",
+                "start_date": "September 2020",
+                "end_date": "Maret 2021"
+            },
+            {
+                "title": "Bandung Techno Park",
+                "type": "Magang - Website Development",
+                "description": "Divisi Website Development yang bertugas membuat landing page untuk mempromosikan product dari Bandung Techno Park dan membuat template untuk website resmi Bandung Techno Park.",
+                "start_date": "Januari 2020",
+                "end_date": "April 2020"
+            },
+            {
+                "title": "Sahaware Software Company",
+                "type": "Speaker Dilo Coding Class - AngularJS Basic",
+                "description": "Pembicara event dalam pembuatan website sederhana dengan menggunakan Framework AngularJS yang di adakan di Sahaware Software Company.",
+                "start_date": "Juni 2019",
+                "end_date": "Juli 2019"
+            },
+            {
+                "title": "Telkom University",
+                "type": "Asisten Praktikum - Telkom University",
+                "description": "Menjadi asisten praktikum pada Prodi D3 Rekayasa Perangkat Lunak Aplikasi dan D3 Teknik Komputer. Membantu membimbing mahasiswa dalam mempelajari website, database dan networking",
+                "start_date": "Agustus 2018",
+                "end_date": "Mei 2019"
+            }
+        ]
+    },
+    "portofolio": [
+        {
+            "title": "Utang Piutang App",
+            "short_label": "Android Development",
+            "short_desc": "Utang Piutang - Pencatat Utang",
+            "image": "images/portfolio/android-debt.jpg",
+            "modals_image": "images/portfolio/modals/m-android-debt.jpg",
+            "long_desc": "Didesain untuk mencatat utang piutang, aplikasi ini mempermudah dalam melakukan pencatatan utang. Dilengkapi dengan fitur cicilan, riwayat, label, grafik, notifikasi, multi mata uang dan pemulihan data (Backup Restore data).",
+            "long_label": "Android Development, Java, Room Database, In-app-purchased, Firebase, MVVM",
+            "preview_url": "https://play.google.com/store/apps/details?id=com.suncode.debt&hl=id&gl=ID"
+        },
+        {
+            "title": "Horoscope App",
+            "short_label": "Android Development",
+            "short_desc": "Horoscope - Aplikasi Horoscope API",
+            "image": "images/portfolio/android-horoscope.jpg",
+            "modals_image": "images/portfolio/modals/m-android-horoscope.jpg",
+            "long_desc": "Aplikasi horoscope, menampilkan data zodiak dalam 3 kategori (Hari ini, Kemarin dan Besok). Aplikasi ini menggunakan data API : Aztro API",
+            "long_label": "Android Development, Java, Retrofit, API",
+            "preview_url": "https://github.com/asengsaragih/AndroidHoroscopeApp"
+        },
+        {
+            "title": "Random Image App",
+            "short_label": "Android Development",
+            "short_desc": "Random Image - Aplikasi Random Image API",
+            "image": "images/portfolio/android-image.jpg",
+            "modals_image": "images/portfolio/modals/m-android-image.jpg",
+            "long_desc": "Aplikasi random image, menampilkan 100 gambar secara acak dan dapat diunduh kedalam storage internal android. Aplikasi ini menggunakan data image API : Picsum Photo",
+            "long_label": "Android Development, Glide, Retrofit, Java, Okhttp",
+            "preview_url": "https://github.com/asengsaragih/AndroidImageApp"
+        },
+        {
+            "title": "Weather App",
+            "short_label": "Android Development",
+            "short_desc": "Weather - Aplikasi Weather API",
+            "image": "images/portfolio/android-weather.jpg",
+            "modals_image": "images/portfolio/modals/m-android-weather.jpg",
+            "long_desc": "Aplikasi Menampilkan data perkiraan cuaca dalam 5 hari kedepan, aplikasi menggunakan data API : Yahoo Weather API",
+            "long_label": "Android Development, Glide, Retrofit, Java, API",
+            "preview_url": "https://github.com/asengsaragih/AndroidWeatherApp"
+        },
+        {
+            "title": "Poem App",
+            "short_label": "Android Development",
+            "short_desc": "Poem - Aplikasi Puisi API",
+            "image": "images/portfolio/android-poem.jpg",
+            "modals_image": "images/portfolio/modals/m-android-poem.jpg",
+            "long_desc": "Aplikasi Puisi, menampilkan puisi random dalam berbagai ragam Bahasa. Aplikasi Menggunakan data API : Poemist API",
+            "long_label": "Android Development, Shimmer, Retrofit, Java, API",
+            "preview_url": "https://github.com/asengsaragih/AndroidPoemApp"
+        },
+        {
+            "title": "Monitoring Banjir App",
+            "short_label": "Android Development",
+            "short_desc": "Monitoring Banjir Dengan LoRaWan",
+            "image": "images/portfolio/android-banjir.jpg",
+            "modals_image": "images/portfolio/modals/m-android-banjir.jpg",
+            "long_desc": "Aplikasi Monitoring Banjir merupakan aplikasi pemantauan banjir dini yang dibangun dengan tujuan untuk menampilkan data banjir di sekitaran kit banjir / prototype bagi masyarakat secara lebih mudah dan efesien. Aplikasi ini dibangun menggunakan LoRa yang bertujuan untuk memberikan data secara realtime.",
+            "long_label": "Android Development, Firebase, LoRa GPS",
+            "preview_url": "https://asengsaragih.github.io/Portofolio/android/banjir.html"
+        },
+        {
+            "title": "Dtres Catering App",
+            "short_label": "Android Development",
+            "short_desc": "Dtres Catering - Aplikasi Catering Makanan",
+            "image": "images/portfolio/android-dtres.jpg",
+            "modals_image": "images/portfolio/modals/m-android-dtres.jpg",
+            "long_desc": "Aplikasi Dtres Catering dapat membantu pengguna membeli dan menjual makanan dalam jumlah besar, Aplikasi ini terdiri dari 2 Role (Penjual dan Pembeli).",
+            "long_label": "Android Development, Firebase",
+            "preview_url": "https://asengsaragih.github.io/Portofolio/android/dtres.html"
+        },
+        {
+            "title": "Utang App",
+            "short_label": "Android Development",
+            "short_desc": "Utang - Aplikasi Pencatat Utang Piutang",
+            "image": "images/portfolio/android-utang.jpg",
+            "modals_image": "images/portfolio/modals/m-android-utang.jpg",
+            "long_desc": "Aplikasi Utang dapat membantu pengguna dalam melakukan pencatatan utang maupun piutang secara pribadi. Aplikasi ini memungkinkan pengguna tidak perlu lagi melakukan pencatatan utang secara manual di buku. Aplikasi ini dapat mencatat kapan, berapa, dan dari atau kepada siapa utang dipinjamkan.",
+            "long_label": "ANDROID DEVELOPMENT, JAVA, SQLITE",
+            "preview_url": "https://asengsaragih.github.io/Portofolio/android/utang.html"
+        },
+        {
+            "title": "Manager Keuangan Mahasiswa",
+            "short_label": "Android Development",
+            "short_desc": "Manager Keuangan Mahasiswa - Aplikasi pencatat keuangan mahasiswa",
+            "image": "images/portfolio/android-manager.jpg",
+            "modals_image": "images/portfolio/modals/m-android-manager.jpg",
+            "long_desc": "Aplikasi Manager Keuangan Mahasiswa, dapat membantu para mahasiswa dalam mengatur keuangan yang dimiliki. Aplikasi ini memiliki fitur Pencatat (Pengeluaran dan Pemasukan), Hutang dan Wishlist (Keinginan untuk dibeli).",
+            "long_label": "Android Development, Java, SQLite",
+            "preview_url": "https://asengsaragih.github.io/Portofolio/android/mkm.html"
+        },
+        {
+            "title": "Monitoring Banjir",
+            "short_label": "Web Development",
+            "short_desc": "Monitoring Banjir Dengan LoRaWan",
+            "image": "images/portfolio/website-banjir.jpg",
+            "modals_image": "images/portfolio/modals/m-website-banjir.jpg",
+            "long_desc": "Aplikasi Monitoring Banjir merupakan aplikasi pemantauan banjir dini yang dibangun dengan tujuan untuk menampilkan data banjir di sekitaran kit banjir / prototype bagi masyarakat secara lebih mudah dan efesien. Aplikasi ini dibangun menggunakan LoRa yang bertujuan untuk memberikan data secara realtime.",
+            "long_label": "Android Development, Firebase, LoRa GPS",
+            "preview_url": "https://asengsaragih.github.io/Portofolio/website/banjir.html"
+        },
+        {
+            "title": "Studia",
+            "short_label": "Website Development",
+            "short_desc": "Studia",
+            "image": "images/portfolio/website-studia.jpg",
+            "modals_image": "images/portfolio/modals/m-website-studia.jpg",
+            "long_desc": "Learning Management System (LMS) / E -Learning, Software, Training, and Consulting.",
+            "long_label": "Webdesign, Bootstrap, Javascript",
+            "preview_url": "https://asengsaragih.github.io/ProductBTPStudia"
+        },
+        {
+            "title": "Greeting Web",
+            "short_label": "Web Development",
+            "short_desc": "Greeting Day Website",
+            "image": "images/portfolio/website-greeting.jpg",
+            "modals_image": "images/portfolio/modals/m-website-greeting.jpg",
+            "long_desc": "Simple Website untuk memberikan salam sesuai dengan waktu",
+            "long_label": "Webdesign, Html, Javascript",
+            "preview_url": "https://asengsaragih.github.io/GreetingDayWebsite/index.html?aseng"
+        }
+    ],
+    "social_media": [
+        {
+            "link": "https://github.com/asengsaragih",
+            "icon": "fa fa-github"
+        },
+        {
+            "link": "https://www.linkedin.com/in/aldi-saragih/",
+            "icon": "fa fa-linkedin"
+        },
+        {
+            "link": "mailto:aldiwahyu.saragih@gmail.com?subject=Portofolio Aldi Saragih",
+            "icon": "fa fa-envelope"
+        }
+    ]
+}
