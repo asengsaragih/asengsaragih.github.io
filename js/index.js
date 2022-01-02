@@ -36,7 +36,7 @@ function portofolio(obj) {
 
         wrapper += "<div class='columns portfolio-item'><div class='item-wrap'><a href='#"+num+"'><img alt='' src='" + el.image + "'><div class='overlay'><div class='portfolio-item-meta'><h5>" + el.title + "</h5><p>" + el.short_label + "</p></div></div><div class='link-icon'><i class='icon-plus'></i></div></a></div></div>";
         
-        modal += "<div id='" + num + "' class='popup-modal mfp-hide'><img class='scale-with-grid' src='" + el.modals_image + "' alt=''/><div class='description-box'><h4>" + el.short_desc + "</h4><p>" + el.long_desc + ".</p><span class='categories'><i class='fa fa-tag'></i>" + el.long_label + "</span></div><div class='link-box'><a href='" + el.preview_url + "'>Details</a><a class='popup-modal-dismiss'>Close</a></div></div>";
+        modal += "<div id='" + num + "' class='popup-modal mfp-hide'><img class='scale-with-grid' src='" + el.modals_image + "' alt=''/><div class='description-box'><h4>" + el.short_desc + "</h4><p>" + el.long_desc + "</p><span class='categories'><i class='fa fa-tag'></i>" + el.long_label + "</span></div><div class='link-box'><a href='" + el.preview_url + "'>Details</a><a class='popup-modal-dismiss'>Close</a></div></div>";
     }
 
     document.getElementById('portofolio').innerHTML = columnStart + wrapper + columnEnd + modal;

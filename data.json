@@ -64,14 +64,14 @@
     },
     "portofolio": [
         {
-            "title": "Utang App",
+            "title": "Utang Piutang App",
             "short_label": "Android Development",
-            "short_desc": "Utang - Aplikasi Pencatat Utang Piutang",
-            "image": "images/portfolio/android-utang.jpg",
-            "modals_image": "images/portfolio/modals/m-android-utang.jpg",
-            "long_desc": "Aplikasi Utang dapat membantu pengguna dalam melakukan pencatatan utang maupun piutang secara pribadi. Aplikasi ini memungkinkan pengguna tidak perlu lagi melakukan pencatatan utang secara manual di buku. Aplikasi ini dapat mencatat kapan, berapa, dan dari atau kepada siapa utang dipinjamkan.",
-            "long_label": "ANDROID DEVELOPMENT, JAVA, SQLITE",
-            "preview_url": "https://asengsaragih.github.io/Portofolio/android/utang.html"
+            "short_desc": "Utang Piutang - Pencatat Utang",
+            "image": "images/portfolio/android-debt.jpg",
+            "modals_image": "images/portfolio/modals/m-android-debt.jpg",
+            "long_desc": "Didesain untuk mencatat utang piutang, aplikasi ini mempermudah dalam melakukan pencatatan utang. Dilengkapi dengan fitur cicilan, riwayat, label, grafik, notifikasi, multi mata uang dan pemulihan data (Backup Restore data).",
+            "long_label": "Android Development, Java, Room Database, In-app-purchased, Firebase, MVVM",
+            "preview_url": "https://play.google.com/store/apps/details?id=com.suncode.debt&hl=id&gl=ID"
         },
         {
             "title": "Horoscope App",
@@ -134,6 +134,16 @@
             "preview_url": "https://asengsaragih.github.io/Portofolio/android/dtres.html"
         },
         {
+            "title": "Utang App",
+            "short_label": "Android Development",
+            "short_desc": "Utang - Aplikasi Pencatat Utang Piutang",
+            "image": "images/portfolio/android-utang.jpg",
+            "modals_image": "images/portfolio/modals/m-android-utang.jpg",
+            "long_desc": "Aplikasi Utang dapat membantu pengguna dalam melakukan pencatatan utang maupun piutang secara pribadi. Aplikasi ini memungkinkan pengguna tidak perlu lagi melakukan pencatatan utang secara manual di buku. Aplikasi ini dapat mencatat kapan, berapa, dan dari atau kepada siapa utang dipinjamkan.",
+            "long_label": "ANDROID DEVELOPMENT, JAVA, SQLITE",
+            "preview_url": "https://asengsaragih.github.io/Portofolio/android/utang.html"
+        },
+        {
             "title": "Manager Keuangan Mahasiswa",
             "short_label": "Android Development",
             "short_desc": "Manager Keuangan Mahasiswa - Aplikasi pencatat keuangan mahasiswa",
@@ -172,16 +182,6 @@
             "long_desc": "Simple Website untuk memberikan salam sesuai dengan waktu",
             "long_label": "Webdesign, Html, Javascript",
             "preview_url": "https://asengsaragih.github.io/GreetingDayWebsite/index.html?aseng"
-        },
-        {
-            "title": "",
-            "short_label": "",
-            "short_desc": "",
-            "image": "images/portfolio/",
-            "modals_image": "images/portfolio/modals/",
-            "long_desc": "",
-            "long_label": "",
-            "preview_url": ""
         }
     ],
     "social_media": [
