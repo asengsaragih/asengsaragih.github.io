@@ -1,25 +1,25 @@
 {
     "home": {
         "name": "Aldi Saragih",
-        "description": "<span>Programmer</span> dibidang <span>Android (Java) dan Website (Laravel).</span> Memiliki paham tentang algoritma pemrograman, struktur database <span>SQL dan non SQL</span>, Struktur <span>JSON Restful API</span>, Struktur <span>Pattern Code.</span>"
+        "description": "<span>Programmer</span> dalam mengembangkan aplikasi web dengan <i>framework</i> <span>Laravel</span>, dan mengelola <i>database</i> <span>SQL</span>. Berfokus pada teknologi terkini, efisiensi desain, serta solusi inovatif yang mendukung performa, skalabilitas, dan keamanan untuk pertumbuhan bisnis yang berkelanjutan"
     },
     "about": {
         "profile_pic" : "https://avatars.githubusercontent.com/u/49329871?v=4",
-        "description": "Halo Semuanya. Nama saya Aldi Wahyu Saragih biasanya dipanggil Aldi. Saya berasal dari Bandung. Saya memiliki skill dibidang Mobile (Android) dan Website (Laravel). Untuk development aplikasi, saya bisa menggunakan bahasa pemrograman Java, JavaScript, Php (Laravel) dengan menggunakan database Firebase, MySql, Postgre dan Oracle. Serta paham tentang penggunaan Restful API.",
-        "detail_contact": "<span>Aldi Wahyu Saragih</span><br><span>Jalan Telekomunikasi Gg. PGA<br> Buahbatu Bandung, 40288</span><br><span>+62 821-6560-7625</span><br><span>aldiwahyu.saragih@gmail.com</span>",
+        "description": "<i>Hello world!!!.</i> Saya Aldi Wahyu Saragih yang dikenal sebagai Aldi. Saya berasal dari Kota Medan, Indonesia. Saya adalah seorang programmer profesional dengan keahlian dalam merancang, mengembangkan, dan mengimplementasikan aplikasi skalabel berkinerja tinggi. Mahir dalam framework Laravel, bahasa pemrograman Java, dan pengelolaan database SQL. Berfokus pada inovasi, efisiensi, dan keamanan untuk memberikan solusi teknologi yang mendorong pertumbuhan bisnis yang optimal dan nilai tambah",
+        "detail_contact": "<span>Aldi Wahyu Saragih</span><br><span>Kota Medan, Sumatera Utara, Indonesia</span><br><span>+62 821-6560-7625</span><br><span>aldiwahyu.saragih@gmail.com</span>",
         "cv": "https://raw.githubusercontent.com/asengsaragih/asengsaragih.github.io/master/images/portfolio/CV%20-%20Aldi%20Wahyu%20Saragih.pdf"
     },
     "biograph": {
         "educations": [
             {
                 "title": "Universitas Bina Nusantara",
-                "description": "S1 Teknik Informatika",
+                "description": "S1 Computer Science (3.34 GPA)",
                 "start_date": "Agustus 2021",
-                "end_date": null
+                "end_date": "Juli 2023"
             },
             {
                 "title": "Universitas Telkom",
-                "description": "D3 Rekayasa Perangkat Lunak Aplikasi (3.47)",
+                "description": "D3 Rekayasa Perangkat Lunak Aplikasi (3.47 GPA)",
                 "start_date": "Agustus 2017",
                 "end_date": "Juni 2020"
             }
@@ -27,10 +27,10 @@
         "experiences": [
             {
                 "title": "Direktorat Pusat Teknologi Informasi, Universitas Telkom",
-                "type": "Kontrak - Backend Developer",
-                "description": "Divisi Backend Developer, melakukan pembuatan API serta merancang struktur JSON untuk Frontend Developer Website.",
+                "type": "Full Time - Backend Developer",
+                "description": "Bertanggung jawab penuh dalam pengembangan dan pemeliharaan sistem Penerimaan Mahasiswa Baru (PMB) Universitas Telkom, termasuk merancang dan mengimplementasikan arsitektur backend menggunakan Laravel, mengembangkan API untuk integrasi dengan sistem pembayaran (FinPay) dan notifikasi Email, mengelola database PostgreSQL, serta berkolaborasi dengan tim Frontend dan Security dalam pengembangan fitur baru, sambil melakukan troubleshooting dan pemeliharaan sistem secara berkala.",
                 "start_date": "Maret 2021",
-                "end_date": null
+                "end_date": "November 2024"
             },
             {
                 "title": "Four Vision Media",
