@@ -25,7 +25,7 @@ function loadData() {
 
 //function for showing portofilio with looping
 function portofolio(obj) {
-    var columnStart = "<div class='twelve columns collapsed'><h1>Portofolio Android & Website</h1><div id='portfolio-wrapper' class='bgrid-quarters s-bgrid-thirds cf'>";
+    var columnStart = "<div class='twelve columns collapsed'><h1>Portofolio</h1><div id='portfolio-wrapper' class='bgrid-quarters s-bgrid-thirds cf'>";
     var columnEnd = "</div></div>";
     var wrapper = "";
     var modal = "";

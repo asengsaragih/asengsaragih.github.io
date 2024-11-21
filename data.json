@@ -1,7 +1,7 @@
 {
     "home": {
         "name": "Aldi Saragih",
-        "description": "<span>Programmer</span> dalam mengembangkan aplikasi web dengan <i>framework</i> <span>Laravel</span>, dan mengelola <i>database</i> <span>SQL</span>. Berfokus pada teknologi terkini, efisiensi desain, serta solusi inovatif yang mendukung performa, skalabilitas, dan keamanan untuk pertumbuhan bisnis yang berkelanjutan"
+        "description": "<span>Programmer</span> dalam mengembangkan aplikasi web dengan <span><i>framework Laravel</i></span>, pemrograman <span><i>Java (Mobile)</i></span>, dan mengelola <span><i>Database SQL </i></span>. Berfokus pada teknologi terkini, efisiensi desain, serta solusi inovatif yang mendukung performa, skalabilitas, dan keamanan untuk pertumbuhan bisnis yang berkelanjutan"
     },
     "about": {
         "profile_pic" : "https://avatars.githubusercontent.com/u/49329871?v=4",
@@ -35,34 +35,44 @@
             {
                 "title": "Four Vision Media",
                 "type": "Kontrak - Android Development",
-                "description": "Divisi Android Development yang bertugas membuat aplikasi mobile dengan menggunakan android studio dengan bahasa Java.",
+                "description": "Berfokus pada pengembangan aplikasi mobile untuk platform Android Bertanggung jawab atas seluruh siklus pengembangan aplikasi, mulai dari perancangan user interface (UI) dan user experience (UX) yang intuitif, implementasi fitur-fitur aplikasi menggunakan bahasa Java dan Android Studio, hingga pengujian dan peluncuran aplikasi di Google Play Store.",
                 "start_date": "September 2020",
                 "end_date": "Maret 2021"
             },
             {
-                "title": "Bandung Techno Park",
+                "title": "Bandung Techno Park, Universitas Telkom",
                 "type": "Magang - Website Development",
-                "description": "Divisi Website Development yang bertugas membuat landing page untuk mempromosikan product dari Bandung Techno Park dan membuat template untuk website resmi Bandung Techno Park.",
+                "description": "Berperan strategis dalam mendukung promosi dan branding Bandung Techno Park. Bertugas merancang landing page yang menarik menggunakan WordPress untuk memperkenalkan berbagai produk unggulan, sekaligus mengembangkan template website resmi Bandung Techno Park Universitas Telkom. Dengan fokus pada desain profesional dan fungsionalitas optimal.",
                 "start_date": "Januari 2020",
                 "end_date": "April 2020"
             },
             {
                 "title": "Sahaware Software Company",
                 "type": "Speaker Dilo Coding Class - AngularJS Basic",
-                "description": "Pembicara event dalam pembuatan website sederhana dengan menggunakan Framework AngularJS yang di adakan di Sahaware Software Company.",
+                "description": "Menjadi pembicara dalam acara pelatihan pembuatan website sederhana menggunakan Framework AngularJS, yang diselenggarakan oleh Sahaware Software Company. Berbagi pengetahuan dan pengalaman dalam pengembangan web modern untuk membantu peserta memahami konsep dasar dan penerapan AngularJS secara praktis.",
                 "start_date": "Juni 2019",
                 "end_date": "Juli 2019"
             },
             {
                 "title": "Telkom University",
                 "type": "Asisten Praktikum - Telkom University",
-                "description": "Menjadi asisten praktikum pada Prodi D3 Rekayasa Perangkat Lunak Aplikasi dan D3 Teknik Komputer. Membantu membimbing mahasiswa dalam mempelajari website, database dan networking",
+                "description": "Berkontribusi dalam pembelajaran mahasiswa Universitas Telkom di Fakultas Ilmu Terapan dengan membimbing pemahaman konsep HTML, CSS, JavaScript, desain database, SQL, serta penggunaan sistem manajemen basis data, mendukung penyelesaian tugas praktikum dan proyek, serta memberikan dukungan teknis selama proses pembelajaran.",
                 "start_date": "Agustus 2018",
                 "end_date": "Mei 2019"
             }
         ]
     },
     "portofolio": [
+        {
+            "title": "Penerimaan Mahasiswa Baru - Telkom University",
+            "short_label": "Website Development",
+            "short_desc": "PMB - Telkom University",
+            "image": "images/portfolio/website-admission.png",
+            "modals_image": "images/portfolio/modals/m-website-admission.png",
+            "long_desc": "Aplikasi seleksi mahasiswa baru (SMB) Telkom University merupakan aplikasi yang mempermudah calon mahasiswa baru untuk mendapatkan informasi berkaitan dengan seleksi mahasiswa baru. <a href='https://situ-adm.telkomuniversity.ac.id/admission/'>https://situ-adm.telkomuniversity.ac.id/admission/</a>",
+            "long_label": "Website Development, Laravel Framework, PostgreSQL, ",
+            "preview_url": "https://drive.google.com/file/d/13xcnwCG457QRgnDE_NQwGKoDycUot5u-/view?usp=sharing"
+        },
         {
             "title": "Utang Piutang App",
             "short_label": "Android Development",
