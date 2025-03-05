@@ -74,6 +74,36 @@
             "preview_url": "https://drive.google.com/file/d/13xcnwCG457QRgnDE_NQwGKoDycUot5u-/view?usp=sharing"
         },
         {
+            "title": "Sapa Alumni - Telkom University",
+            "short_label": "Website Development",
+            "short_desc": "Forum Salam Alumni - Telkom University",
+            "image": "images/portfolio/website-sapaalumni.jpg",
+            "modals_image": "images/portfolio/modals/m-website-sapaalumni.jpg",
+            "long_desc": "Aplikasi Sapa Alumni atau yang dulu disebut Aplikasi Form Alumni merupakan aplikasi yang digunakan untuk pendataan alumni Telkom University .",
+            "long_label": "Website Development, Laravel Framework, PostgreSQL",
+            "preview_url": "https://drive.google.com/file/d/1-K1r4u-yjjMf8YXr4Z1XUrN8B-OIAO1m/view?usp=sharing"
+        },
+        {
+            "title": "Checkin - Telkom University",
+            "short_label": "Website Development",
+            "short_desc": "Aplikasi Absensi Pegawai - Telkom University",
+            "image": "images/portfolio/website-checkin.jpg",
+            "modals_image": "images/portfolio/modals/m-website-checkin.jpg",
+            "long_desc": "Aplikasi Checkin merupakan aplikasi yang digunakan untuk Checkin kehadiran pegawai dan mengelola data kehadiran pegawai setiap harinya. Aplikasi terdiri dari beberapa fitur untuk menunjang proses Checkin kehadiran pegawai Telkom University diantaranya adalah fitur untuk checkin kehadiran pegawai, konfirmasi kehadiran pegawai, persetujuan konfirmasi kehadiran pegawai, dashboard kehadiran pegawai serta pengelolaan data kehadiran pegawai",
+            "long_label": "Website Development, Laravel Framework, PostgreSQL, ",
+            "preview_url": "https://drive.google.com/file/d/1Dad4geKzpwQltsAGtY7Vhzmp7PzE8lbm/view?usp=sharing"
+        },
+        {
+            "title": "My Tel-U Dashboard - Telkom University",
+            "short_label": "Website Development",
+            "short_desc": "Dashboard PMB - Telkom University",
+            "image": "images/portfolio/website-dashboard.jpg",
+            "modals_image": "images/portfolio/modals/m-website-dashboard.jpg",
+            "long_desc": "My Tel-U Dashboard Admisi merupakan aplikasi yang dikelola oleh admisi unit SMB Telkom University, dimana untuk memantau perkembangan pendaftar Telkom University, dari segi kegiatan, pemantauan pin, pendaftar, laporan akhir dan kuesioner selain itu My Tel-U Dashboard juga menampilkan prodi favorit, dan fakultas favorit, provinsi pendaftar, kota pendaftar, asal sekolah pendaftar yang dilihat dari banyaknya pendaftar.",
+            "long_label": "Website Development, Laravel Framework, PostgreSQL",
+            "preview_url": "https://drive.google.com/file/d/1rndAWsvWz1KKIC33h3A5Q3-55FtV7ASf/view?usp=sharing"
+        },
+        {
             "title": "Utang Piutang App",
             "short_label": "Android Development",
             "short_desc": "Utang Piutang - Pencatat Utang",
